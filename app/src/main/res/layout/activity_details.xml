@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="com.serafynurh.myhealth.DetailsActivity"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:id="@+id/tvDesc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.02"
+        app:srcCompat="@mipmap/apple" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:text="13 Floor"
+        android:textColor="#3a0c6c"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:text="The Sample Description goes here"
+        android:textColor="#050110"
+        android:textSize="16dp" />
+</LinearLayout>
+</ScrollView>
