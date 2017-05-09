@@ -90,7 +90,7 @@ public class DetailsActivity extends AppCompatActivity {
             "Turmeric has long been used as a stomach soother, and is particularly useful for constipation, cramping, and irritable bowel syndrome. The anti-inflammatory activity of curcumin also comes into play here, as it lowers the chances of developing ulcers, bleeding in the bowels, and generally eliminates irritation throughout the gut. Turmeric is often recommended for patients suffering from Inflammatory Bowel Disease and even more serious conditions, such as Crohn’s disease. The dietary fiber content found in turmeric, although not off the charts, is still significant and can help smooth your digestive processes.\n" +
                     "\n" +
                     "Menstrual Issues: If you suffer from severe menstrual discomfort, cramping, bloating, excessive bleeding, or mood swings, turmeric may be precisely what you’ve been looking for. The anti-inflammatory and soothing nature of the herb’s natural compounds can relieve most symptoms of menstruation.",
-             "", "","","","","",};
+             "A", "B","C","D","E","F",};
 
 /*===============================================ARRAY OF  TITLE FOR EACH MOVIE==================================================*/
 

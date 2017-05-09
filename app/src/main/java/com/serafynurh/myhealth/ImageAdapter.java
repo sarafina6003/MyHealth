@@ -64,6 +64,7 @@ public class ImageAdapter extends BaseAdapter {
     static class ViewHolder {
         ImageView imageView;
         TextView textViewTitle;
+        TextView textViewDesc;
     }
 }
 
