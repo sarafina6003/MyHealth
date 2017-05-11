@@ -7,10 +7,16 @@ package com.serafynurh.myhealth;
 public class Item {
     String title;
     int image;
+    int pos;
 
-    public Item(String title, int imgae) {
+    public Item(String title, int imgae,int pos) {
         this.title = title;
         this.image = imgae;
+        this.pos=pos;
+    }
+
+    public int getPos() {
+        return pos;
     }
 
     public String getTitle() {

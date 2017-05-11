@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
         originalItems=new ArrayList<>();
 
         for (int i=0; i<titles.length; i++){
-            originalItems.add(new Item(titles[i], images[i]));
+            originalItems.add(new Item(titles[i], images[i],i));
         }
         customAdapter =new CustomAdapter(this, originalItems);
 
@@ -49,15 +49,15 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
 
         adapter = new ImageAdapter(this, images,searchResults);
         grid.setAdapter(adapter);
-
+*/
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent a = new Intent(MainActivity.this, DetailsActivity.class);
-                a.putExtra("data", position);
+                a.putExtra("data", originalItems.get(position).getPos());
                 startActivity(a);
             }
-        });*/
+        });
 
         searchEditText.addTextChangedListener(this);
     }
